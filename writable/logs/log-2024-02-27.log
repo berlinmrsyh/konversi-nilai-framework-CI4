@@ -1,0 +1,20 @@
+CRITICAL - 2024-02-27 10:24:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "nilai_controller.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nilai_controller.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('nilai_controller', [], true)
+ 3 APPPATH\Controllers\NilaiController.php(12): view('nilai_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NilaiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NilaiController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2024-02-27 10:24:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "nilai_controller.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nilai_controller.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('nilai_controller', [], true)
+ 3 APPPATH\Controllers\NilaiController.php(12): view('nilai_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NilaiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NilaiController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
